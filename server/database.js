@@ -14,6 +14,7 @@ function commit(data, resolve) {
     fs.writeFile(DATA, JSON.stringify(data, null, PRETTIFY_WS));
 }
 
+//comment
 function add(todo, resolve) {
     getAll(function (data) {
         data.todos.push(todo);

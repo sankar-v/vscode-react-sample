@@ -4,6 +4,7 @@ import App from './components/App';
 
 require('./globals.scss');
 
+//comment
 ReactDOM.render(
     <App />,
     document.getElementById('app')

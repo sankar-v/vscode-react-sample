@@ -8,7 +8,7 @@ var database = require('./database');
 var server = express();
 server.use(bodyParser.json());
 
-// Middleware
+// Middleware - 1
 server.use(function (req, res, next) {
   // allow origin for demo purposes
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
